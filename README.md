@@ -6,6 +6,7 @@ ASANA API INTEGRATION
 
 Login User Info
 ===============
+<pre>
 asana.request("GET", "users/me?opt_fields=id,name,photo", function(ierr, userresponse) {
     if (ierr){ console.error("Error:", ierr)}else{
         projectList="";
@@ -18,3 +19,4 @@ asana.request("GET", "users/me?opt_fields=id,name,photo", function(ierr, userres
         }
     }
   });
+</pre>
