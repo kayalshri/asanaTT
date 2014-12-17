@@ -6,7 +6,7 @@
 <script type="text/javaScript">
 $(document).ready(function(){
       var loading = "<center><img src='http://www.edsheeran.com/_img/loading-sml.gif'><br>Loading...<br>Please wait...</center>";
-      var ASANA_API_KEY = "4K5EANck.o6pdvjcJ9DMq0mthkRlMCLo";
+      var ASANA_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxx";
 
       $("#project-list").html(loading);
       var asana = new AsanaApi({ api_key: ASANA_API_KEY })
